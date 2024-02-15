@@ -13,7 +13,7 @@ function KitchenPage() {
         }
     }
     const FilteredProduct = selectedProduct.length === 0 ?
-        KitchenData : KitchenData.filter((kart) => selectedProduct.includes(kart.company))
+        KitchenData : KitchenData.filter((kart) => selectedProduct.includes(kart.brand))
     return (
         <>
             <Navbar />

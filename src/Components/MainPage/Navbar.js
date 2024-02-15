@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useCart } from '../Context/AddCart'
 
 function Navbar() {
+    // const Products = ["Mobiles", "Computers", "Watches", "Men Fashion", "Women Fashion","Furniture", "Air Conditioners","Kitchen","Television's","Books","Fridge","Speakers"]
     const { CartItems } = useCart()
     return (
         <div className="navbar-section">
@@ -12,6 +13,13 @@ function Navbar() {
                 </div>
                 <div className='search'>
                     <input type='text' placeholder='Search...' />
+                    {/* <select  onClick={(e) => (e.target.value)}>
+                        {Products.map((item, index) => (
+                            <option value={item} key={index}>{item}</option>
+                        ))
+                        }
+                    </select> */}
+                 
                 </div>
                 <div className='user'>
                     <div className='user-detail'>

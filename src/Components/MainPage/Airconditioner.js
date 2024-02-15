@@ -5,7 +5,6 @@ function Airconditioner() {
     const firstfiveImages = AcData.slice(0, 5)
     return (
         <>
-        
             <h2>Air Conditioners</h2>
             <div className='productsection'>
                 {
